@@ -202,6 +202,36 @@ $("#lunaradio").lunaradio({
             });
         </script>
     </footer>
+	    <style>
+  html, body {
+  /* Estilo para el video */
+        video {
+            position: fixed; 
+            top: 0;
+            left: 0;
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+            z-index: -1; 
+       
+        }
+
+        /* Asegura que el body y html ocupen el 100% */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: auto; 
+        
+  }
+</style>
+
+    <video src="https://redcadis.com/VID-20241031-WA0013.mp4" autoplay muted loop>
+           <!-- https://radioplayer.luna-universe.com/videos/home.mp4 -->
+           <!-- https://radioplayer.luna-universe.com/videos/home2.mp4 -->
+           <!-- https://radioplayer.luna-universe.com/videos/home3.mp4 --> 
+           <!-- https://redcadis.com/VID-20241031-WA0013.mp4 --> 
+</video>
 </body>
 
 </html>
